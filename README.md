@@ -47,7 +47,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 ### Rockchip RK3566 平台
 
-| 设备树模型 | 内部代号 | 型号 |
+| 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
 | `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `-` |
 | `Rockchip RK3566 Youdao CHERRY LP4 Board` | `Cherry-3566` | `-` |
@@ -61,7 +61,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 ### Rockchip RK3562 平台
 
-| 设备树模型 | 内部代号 | 型号 |
+| 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
 | `Rockchip RK3562 ORANGE LP4 V10 Board` | `RK3562_Orange` | `X7` |
 | `Rockchip RK3562 MELON LP4 V10 Board` | `RK3562_Melon` | `-` |
@@ -75,7 +75,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 ### Rockchip RK3326 平台
 
-| 设备树模型 | 内部代号 | 型号 |
+| 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
 | `Rockchip rk3326 evb lpddr3 v10 board for linux` | `Dictpen2.0` | `-` |
 | `Rockchip rk3326 for Youdao v5 version` | `Dictpen2.0` | `-` |
@@ -96,7 +96,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 ### Cvitek CV1826 平台
 
-| 设备树模型 | 内部代号 | 型号 |
+| 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
 | `Cvitek Cv1826 for Youdao Cherry V0 version` | `Cherry_Cvitek_1826` | `-` |
 | `Cvitek Cv1826 for Youdao Cherry V1 5G version` | `Cherry_Cvitek_1826` | `-` |
@@ -108,7 +108,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 ### Rockchip RV1106 平台
 
-| 设备树模型 | 内部代号 | 型号 |
+| 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
 | `Rockchip RV1106 for Hermes V10 Board` | `Hermes` | `-` |
 | `Rockchip RV1106 for Hermes V1 Board` | `Hermes` | `-` |
