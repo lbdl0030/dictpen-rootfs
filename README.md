@@ -49,10 +49,10 @@ Rockchip RK3566 Youdao CHERRY Board
 
 | 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
-| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `-` |
+| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `X3s``X6plus` |
 | `Rockchip RK3566 Youdao CHERRY LP4 Board` | `Cherry-3566` | `-` |
 | `Rockchip RK3566 Youdao CHERRY LP4 HUSB311 Board` | `Cherry-3566` | `-` |
-| `Rockchip RK3566 Youdao CHERRY LPDDR3 Husb311 Board` | `Cherry-3566` | `-` |
+| `Rockchip RK3566 Youdao CHERRY LPDDR3 Husb311 Board` | `Cherry-3566` | `X3s` |
 | `Rockchip RK3566 Youdao CHERRY Mobiiot V10` | `Cherry-3566-mobiiot` | `-` |
 | `Rockchip rk3566 for Youdao Kiwi V0 version` | `Kiwi-3566` | `-` |
 | `Rockchip RK3566 Youdao Almond Board` | `Almond` | `-` |
@@ -77,9 +77,9 @@ Rockchip RK3566 Youdao CHERRY Board
 
 | 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
-| `Rockchip rk3326 evb lpddr3 v10 board for linux` | `Dictpen2.0` | `-` |
-| `Rockchip rk3326 for Youdao v5 version` | `Dictpen2.0` | `-` |
-| `Rockchip rk3326 for Youdao Cherry V0 version` | `Cherry` | `-` |
+| `Rockchip rk3326 evb lpddr3 v10 board for linux` | `Dictpen2.0` | `X6plus` |
+| `Rockchip rk3326 for Youdao v5 version` | `Dictpen2.0` | `X6plus` |
+| `Rockchip rk3326 for Youdao Cherry V0 version` | `Cherry` | `X6plus` |
 | `Rockchip rk3326 for Youdao Cherry Husb311 version` | `Cherry` | `-` |
 | `Rockchip rk3326 for Youdao Kiwi V0 version` | `Kiwi-3326` | `-` |
 | `Rockchip rk3326 for mango version` | `Mango` | `-` |
@@ -114,7 +114,7 @@ Rockchip RK3566 Youdao CHERRY Board
 | `Rockchip RV1106 for Hermes V1 Board` | `Hermes` | `-` |
 | `Rockchip RV1106 for Peach V10 Board` | `Peach_RV1106` | `-` |
 | `Rockchip RV1106 for Peach Demo V10 Board` | `Peach_Demo_RV1106` | `-` |
-| `Rockchip RV1106 for Pear V10 Board` | `Pear_RV1106` | `-` |
+| `Rockchip RV1106 for Pear V10 Board` | `Pear_RV1106` | `A6pro` |
 | `Rockchip RV1106 for Y09 V10 Board` | `Y09_RV1106` | `-` |
 | `Rockchip RV1106 for Y09P V10 Board` | `Y09P_RV1106` | `-` |
 | `Rockchip RV1106 for Y11 Board` | `Y11_RV1106` | `-` |
