@@ -49,7 +49,7 @@ Rockchip RK3566 Youdao CHERRY Board
 
 | 设备树模型 | 代号 | 型号 |
 |-----------|----------|----------|
-| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `X3s<ber>X6plus` |
+| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `X3s`<br>`X6plus` |
 | `Rockchip RK3566 Youdao CHERRY LP4 Board` | `Cherry-3566` | `-` |
 | `Rockchip RK3566 Youdao CHERRY LP4 HUSB311 Board` | `Cherry-3566` | `-` |
 | `Rockchip RK3566 Youdao CHERRY LPDDR3 Husb311 Board` | `Cherry-3566` | `X3s` |
