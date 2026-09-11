@@ -101,7 +101,7 @@ Rockchip RK3566 Youdao CHERRY Board
 | `Cvitek Cv1826 for Youdao Cherry V0 version` | `Cherry_Cvitek_1826` | `-` |
 | `Cvitek Cv1826 for Youdao Cherry V1 5G version` | `Cherry_Cvitek_1826` | `-` |
 | `Cvitek Cv1826 for Youdao Melon V0 version` | `CV1826_Melon` | `-` |
-| `Cvitek Cv1826 for Youdao PineApple V0 version` | `PineApple` | `-` |
+| `Cvitek Cv1826 for Youdao PineApple V0 version` | `PineApple` | `S6pro` |
 | `Cvitek Cv1826 for Youdao Plum V0 version` | `Plum` | `-` |
 | `Cvitek Cv1826 for Youdao Y08 V0 version` | `Y08_CV1813` | `-` |
 
