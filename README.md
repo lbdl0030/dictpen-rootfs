@@ -56,7 +56,7 @@ Rockchip RK3566 Youdao CHERRY Board
 | `Rockchip RK3566 Youdao CHERRY Mobiiot V10` | `Cherry-3566-mobiiot` | `-` |
 | `Rockchip rk3566 for Youdao Kiwi V0 version` | `Kiwi-3566` | `-` |
 | `Rockchip RK3566 Youdao Almond Board` | `Almond` | `-` |
-| `Rockchip RK3566 Youdao Almond V2 Board` | `Almond` | `-` |
+| `Rockchip RK3566 Youdao Almond V2 Board` | `Almond` | `P5` |
 
 
 ### Rockchip RK3562 平台
