@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "name": "youdao-ota-example",
+      "url": "https://example.com/ota/firmware.zip",
+      "device": "Cherry-3566"
+    }
+  ]
+}
