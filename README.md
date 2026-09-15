@@ -149,4 +149,5 @@ Rockchip RK3566 Youdao CHERRY Board
 
 1. 修改了release的标题命名，固件包统一为firmware
 2. 更新部分OTA分类逻辑和设备树模型映射表
+3. 更新github pages页面
 
