@@ -45,82 +45,81 @@ Rockchip RK3566 Youdao CHERRY Board
 > **如何获取设备树模型**：在词典笔终端执行 `cat /proc/device-tree/model`，将输出结果与下表对照。
 
 
+## 设备树模型 → 内部代号映射表
+
+> **注意**：同一设备树模型可能对应多个市售型号，请以 `cat /proc/device-tree/model` 的输出为准，并结合下表查找对应的内部代号和兼容型号。
+
 ### Rockchip RK3566 平台
 
-| 设备树模型 | 代号 | 型号 |
-|-----------|----------|----------|
-| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | `X3s`<br>`X6plus` |
-| `Rockchip RK3566 Youdao CHERRY LP4 Board` | `Cherry-3566` | `-` |
-| `Rockchip RK3566 Youdao CHERRY LP4 HUSB311 Board` | `Cherry-3566` | `-` |
-| `Rockchip RK3566 Youdao CHERRY LPDDR3 Husb311 Board` | `Cherry-3566` | `X3s` |
-| `Rockchip RK3566 Youdao CHERRY Mobiiot V10` | `Cherry-3566-mobiiot` | `-` |
-| `Rockchip rk3566 for Youdao Kiwi V0 version` | `Kiwi-3566` | `-` |
-| `Rockchip RK3566 Youdao Almond Board` | `Almond` | `-` |
-| `Rockchip RK3566 Youdao Almond V2 Board` | `Almond` | `P5` |
-
+| 设备树模型 | 内部代号 | 兼容型号（待确认） |
+|-----------|----------|-------------------|
+| `Rockchip RK3566 Youdao CHERRY Board` | `Cherry-3566` | X7、X3s、X6plus |
+| `Rockchip RK3566 Youdao CHERRY LP4 Board` | `Cherry-3566` | 待确认 |
+| `Rockchip RK3566 Youdao CHERRY LP4 HUSB311 Board` | `Cherry-3566` | 待确认 |
+| `Rockchip RK3566 Youdao CHERRY LPDDR3 Husb311 Board` | `Cherry-3566` | X3s |
+| `Rockchip RK3566 Youdao CHERRY Mobiiot V10` | `Cherry-3566-mobiiot` | 待确认 |
+| `Rockchip rk3566 for Youdao Kiwi V0 version` | `Kiwi-3566` | 待确认 |
+| `Rockchip RK3566 Youdao Almond Board` | `Almond` | 待确认 |
+| `Rockchip RK3566 Youdao Almond V2 Board` | `Almond` | P5 |
 
 ### Rockchip RK3562 平台
 
-| 设备树模型 | 代号 | 型号 |
-|-----------|----------|----------|
-| `Rockchip RK3562 ORANGE LP4 V10 Board` | `RK3562_Orange` | `X7` |
-| `Rockchip RK3562 MELON LP4 V10 Board` | `RK3562_Melon` | `-` |
-| `Rockchip RK3562 OLIVE LP4 V10 Board` | `RK3562_Olive` | `-` |
-| `Rockchip RK3562 Y02 LP4 V10 Board` | `RK3562_Y02` | `-` |
-| `Rockchip RK3562 Y02-1 LP4 V10 Board` | `RK3562_Y02-1` | `-` |
-| `Rockchip RK3562 Y03 LP4 V10 Board` | `RK3562_Y03` | `-` |
-| `Rockchip RK3562 Y07 LP4 V10 Board` | `RK3562_Y07` | `-` |
-| `Rockchip RK3562 POPCORN LP4 V10 Board` | `RK3562_Popcorn` | `-` |
-
+| 设备树模型 | 内部代号 | 兼容型号（待确认） |
+|-----------|----------|-------------------|
+| `Rockchip RK3562 ORANGE LP4 V10 Board` | `RK3562_Orange` | 待确认（非 X7） |
+| `Rockchip RK3562 MELON LP4 V10 Board` | `RK3562_Melon` | 待确认 |
+| `Rockchip RK3562 OLIVE LP4 V10 Board` | `RK3562_Olive` | 待确认 |
+| `Rockchip RK3562 Y02 LP4 V10 Board` | `RK3562_Y02` | X7P |
+| `Rockchip RK3562 Y02-1 LP4 V10 Board` | `RK3562_Y02-1` | X7P长续航版 |
+| `Rockchip RK3562 Y03 LP4 V10 Board` | `RK3562_Y03` | 答疑笔 space one |
+| `Rockchip RK3562 Y07 LP4 V10 Board` | `RK3562_Y07` | 答疑笔 space X |
+| `Rockchip RK3562 POPCORN LP4 V10 Board` | `RK3562_Popcorn` | 待确认 |
 
 ### Rockchip RK3326 平台
 
-| 设备树模型 | 代号 | 型号 |
-|-----------|----------|----------|
-| `Rockchip rk3326 evb lpddr3 v10 board for linux` | `Dictpen2.0` | `X6plus` |
-| `Rockchip rk3326 for Youdao v5 version` | `Dictpen2.0` | `X6plus` |
-| `Rockchip rk3326 for Youdao Cherry V0 version` | `Cherry` | `X6plus` |
-| `Rockchip rk3326 for Youdao Cherry Husb311 version` | `Cherry` | `-` |
-| `Rockchip rk3326 for Youdao Kiwi V0 version` | `Kiwi-3326` | `-` |
-| `Rockchip rk3326 for mango version` | `Mango` | `-` |
-| `Rockchip rk3326 for apollo version` | `Apollo` | `-` |
-| `Rockchip rk3326 for apollo Husb311 version` | `Apollo` | `-` |
-| `Rockchip rk3326 for apollo pro version` | `Apollo_Pro` | `-` |
-| `Rockchip rk3326 for apollo Husb311 pro version` | `Apollo_Pro` | `-` |
-| `Rockchip rk3326 for hermes version` | `Hermes` | `-` |
-| `Rockchip rk3326 for hermes Husb311 version` | `Hermes` | `-` |
-| `Rockchip rk3326 for exam version` | `Exam` | `-` |
-| `Rockchip rk3326 for exam husb311 version` | `Exam` | `-` |
-| `Rockchip RK3326S Y05 LP4 V10 Board` | `RK3326S_Y05` | `-` |
-
+| 设备树模型 | 内部代号 | 兼容型号（待确认） |
+|-----------|----------|-------------------|
+| `Rockchip rk3326 evb lpddr3 v10 board for linux` | `Dictpen2.0` | 待确认 |
+| `Rockchip rk3326 for Youdao v5 version` | `Dictpen2.0` | 待确认 |
+| `Rockchip rk3326 for Youdao Cherry V0 version` | `Cherry` | 词典笔三代 |
+| `Rockchip rk3326 for Youdao Cherry Husb311 version` | `Cherry` | 待确认 |
+| `Rockchip rk3326 for Youdao Kiwi V0 version` | `Kiwi-3326` | G3 |
+| `Rockchip rk3326 for mango version` | `Mango` | K3 |
+| `Rockchip rk3326 for apollo version` | `Apollo` | 待确认 |
+| `Rockchip rk3326 for apollo Husb311 version` | `Apollo` | 待确认 |
+| `Rockchip rk3326 for apollo pro version` | `Apollo_Pro` | 听力宝apollo pro |
+| `Rockchip rk3326 for apollo Husb311 pro version` | `Apollo_Pro` | 待确认 |
+| `Rockchip rk3326 for hermes version` | `Hermes` | 听力宝E6 |
+| `Rockchip rk3326 for hermes Husb311 version` | `Hermes` | 待确认 |
+| `Rockchip rk3326 for exam version` | `Exam` | 待确认 |
+| `Rockchip rk3326 for exam husb311 version` | `Exam` | 待确认 |
+| `Rockchip RK3326S Y05 LP4 V10 Board` | `RK3326S_Y05` | 听力宝Y05 |
 
 ### Cvitek CV1826 平台
 
-| 设备树模型 | 代号 | 型号 |
-|-----------|----------|----------|
-| `Cvitek Cv1826 for Youdao Cherry V0 version` | `Cherry_Cvitek_1826` | `-` |
-| `Cvitek Cv1826 for Youdao Cherry V1 5G version` | `Cherry_Cvitek_1826` | `-` |
-| `Cvitek Cv1826 for Youdao Melon V0 version` | `CV1826_Melon` | `-` |
-| `Cvitek Cv1826 for Youdao PineApple V0 version` | `PineApple` | `S6pro` |
-| `Cvitek Cv1826 for Youdao Plum V0 version` | `Plum` | `-` |
-| `Cvitek Cv1826 for Youdao Y08 V0 version` | `Y08_CV1813` | `S7pro` |
-
+| 设备树模型 | 内部代号 | 兼容型号（待确认） |
+|-----------|----------|-------------------|
+| `Cvitek Cv1826 for Youdao Cherry V0 version` | `Cherry_Cvitek_1826` | 待确认 |
+| `Cvitek Cv1826 for Youdao Cherry V1 5G version` | `Cherry_Cvitek_1826` | 待确认 |
+| `Cvitek Cv1826 for Youdao Melon V0 version` | `CV1826_Melon` | X6 |
+| `Cvitek Cv1826 for Youdao PineApple V0 version` | `PineApple` | S6P |
+| `Cvitek Cv1826 for Youdao Plum V0 version` | `Plum` | S6 |
+| `Cvitek Cv1826 for Youdao Y08 V0 version` | `Y08_CV1813` | S7 |
 
 ### Rockchip RV1106 平台
 
-| 设备树模型 | 代号 | 型号 |
-|-----------|----------|----------|
-| `Rockchip RV1106 for Hermes V10 Board` | `Hermes` | `-` |
-| `Rockchip RV1106 for Hermes V1 Board` | `Hermes` | `-` |
-| `Rockchip RV1106 for Peach V10 Board` | `Peach_RV1106` | `-` |
-| `Rockchip RV1106 for Peach Demo V10 Board` | `Peach_Demo_RV1106` | `-` |
-| `Rockchip RV1106 for Pear V10 Board` | `Pear_RV1106` | `A6pro` |
-| `Rockchip RV1106 for Y09 V10 Board` | `Y09_RV1106` | `-` |
-| `Rockchip RV1106 for Y09P V10 Board` | `Y09P_RV1106` | `-` |
-| `Rockchip RV1106 for Y11 Board` | `Y11_RV1106` | `-` |
-| `Rockchip RV1106 for Y24 V0 Board` | `Y24_RV1106` | `-` |
-| `Rockchip RV1106G Y06 Board` | `Y06_RV1106` | `-` |
-
+| 设备树模型 | 内部代号 | 兼容型号（待确认） |
+|-----------|----------|-------------------|
+| `Rockchip RV1106 for Hermes V10 Board` | `Hermes` | 听力宝E6 |
+| `Rockchip RV1106 for Hermes V1 Board` | `Hermes` | 听力宝E6P |
+| `Rockchip RV1106 for Peach V10 Board` | `Peach_RV1106` | 待确认 |
+| `Rockchip RV1106 for Peach Demo V10 Board` | `Peach_Demo_RV1106` | 待确认 |
+| `Rockchip RV1106 for Pear V10 Board` | `Pear_RV1106` | A6P |
+| `Rockchip RV1106 for Y09 V10 Board` | `Y09_RV1106` | A7 |
+| `Rockchip RV1106 for Y09P V10 Board` | `Y09P_RV1106` | A7P |
+| `Rockchip RV1106 for Y11 Board` | `Y11_RV1106` | 待确认 |
+| `Rockchip RV1106 for Y24 V0 Board` | `Y24_RV1106` | 待确认 |
+| `Rockchip RV1106G Y06 Board` | `Y06_RV1106` | 待确认 |
 
 ### 特殊说明
 
